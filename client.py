@@ -1,7 +1,6 @@
 # Echo client program
 import socket
 
-#HOST = 'bone-10.danelec.net'    # The remote host
 #HOST = 'LOCALHOST'
 HOST = '192.168.66.187'
 PORT = 50007              # The same port as used by the server
