@@ -1,6 +1,6 @@
 # SBC test server and interpreter program
 import socket
-HOST = ''                 # Symbolic name meaning the local host
+HOST = ''                
 PORT = 50007              # Arbitrary non-privileged port
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind((HOST, PORT))
